@@ -1,0 +1,262 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* page1 */
+.content {
+    max-height: 1000px;
+    margin: auto;
+    background: linear-gradient(rgba(0, 0, 0, 1), rgba(0, 0, 0, 1)) !important;
+    background-size: cover;
+    background-repeat: no-repeat;
+    position: relative;
+    padding: 20px 60px;
+}
+
+.gilroy-semibold-page1-header {
+    color: #fff !important;
+    font-size: 16px !important;
+}
+
+section {
+    padding: 110px 40px !important;
+}
+
+.page-1section {
+    background-color: #EEEEEE !important;
+}
+
+.section8 {
+    background-color: white !important;
+    padding: 110px 40px !important;
+}
+
+.blog-bio-page1-section1 {
+    display: flex;
+    flex-direction: column;
+}
+
+.blog-bio-mines {
+    display: flex;
+    gap: 10px;
+}
+
+.bio-minss {
+    font-size: 18px !important;
+    color: #000000;
+}
+
+.child-blog-image-page1-section2 {
+    display: flex;
+}
+
+.text-semibold-page1-section2 {
+    color: black !important;
+    width: 100% !important;
+}
+
+.paragraph-page1-section1-p-2 {
+    padding: 36px 0px 46px !important;
+}
+
+.gilroy-semibold-page1-section2 {
+    font-size: 18px !important;
+    width: 100% !important;
+    text-decoration: underline !important;
+    letter-spacing: 2px !important;
+}
+
+.text-semibold-page1-section2-h2 {
+    margin-top: 30px !important;
+    font-size: 36px !important;
+    width: 100% !important;
+    color: black !important;
+    line-height: 40px !important;
+}
+
+.list-item-page1-section2 {
+    padding-left: 20px !important;
+}
+
+.page1-li-section2 {
+    font-size: 18px !important;
+    text-transform: none !important;
+}
+
+.btn-page1-section2 {
+    margin: 40px 0 20px !important;
+    width: 100% !important;
+    border: 1px solid black !important;
+}
+
+.paragraph-page1-sectoin2 {
+    width: 100% !important;
+    font-size: 18px !important;
+    line-height: normal !important;
+}
+
+.spanIcons-parent {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    justify-content: space-evenly;
+    width: 100%;
+}
+
+.text-semibold-page1-section2-a {
+    font-size: 22px !important;
+    color: #000000 !important;
+    letter-spacing: 2px !important;
+    width: initial !important;
+    text-decoration: underline !important;
+
+}
+
+.spanIcons {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 1.5px;
+    height: 30px;
+    background-color: #000000;
+}
+
+/* page2 */
+
+.content-page2 {
+    max-height: 1000px;
+    margin: auto;
+    background: linear-gradient(rgba(0, 0, 0, .7), rgba(0, 0, 0, .7)), url("../../assets/images/page2/img1.png") !important;
+    background-size: cover !important;
+    background-repeat: no-repeat !important;
+    position: relative !important;
+    padding: 20px 60px !important;
+}
+
+.text-semibold-page2-section2 {
+    font-size: 60px !important;
+    color: #000000 !important;
+    width: 100% !important;
+    line-height: 60px !important;
+}
+
+.child-btn-P2-H {
+    background-color: rgba(0, 0, 0, 0) !important;
+    border: 1px solid white !important;
+    color: white !important;
+    width: 210px !important;
+}
+
+.blog-image-G {
+    display: flex !important;
+    flex-direction: column !important;
+}
+
+/* page3 */
+
+.btn-nav {
+    width: 180px !important;
+}
+
+.text-semibold-page3 {
+    width: 100% !important;
+}
+
+.bio-page3 {
+    color: #ffffff !important;
+    width: 100% !important;
+}
+
+.child-btn-page3 {
+    width: 240px !important;
+    border: 1px solid white !important;
+    background-color: #000000 !important;
+}
+
+.bio-page3-S3 {
+    font-size: 16px;
+}
+
+.text-page3 {
+    font-size: 64px !important;
+    line-height: 60px !important;
+    width: 100% !important;
+    color: #000000 !important;
+}
+
+.bio-page3-S1 {
+    padding-top: 15px !important;
+}
+
+.blog-text {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+    height: 100%;
+    padding: 40px;
+}
+
+.btn-P3-S3 {
+    width: 280px !important;
+}
+
+/* Soundstege Studios1 */
+
+#menu {
+    z-index: 1000 !important;
+    font-size: 34px;
+    position: absolute;
+    top: 20px;
+    right: 10px;
+    color: #fff !important;
+    cursor: pointer;
+    padding: 10px;
+    opacity: 0;
+}
+
+.blog-image {
+    background-size: cover !important;
+    display: flex !important;
+    align-items: center !important;
+    justify-content: center !important;
+    width: 100% !important;
+    background-color: #ffffff;
+}
+
+.texth5 {
+    color: #000000 !important;
+    text-transform: uppercase;
+}
+
+.blog-text-SS {
+    display: flex !important;
+    flex-direction: column !important;
+    align-items: start !important;
+    justify-content: center !important;
+    width: 100% !important;
+    height: 100% !important;
+    padding: 0;
+}
+
+.blog-image-section3-SS {
+    overflow: hidden !important;
+    height: 420px !important;
+}
+
+.btn-section3-page3-SS {
+    text-align: center !important;
+    width: 300px !important;
+    border: 1px solid #000000 !important;
+}
+
+.blog-btn-SS {
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 70px 0 70px;
+}

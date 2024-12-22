@@ -1,0 +1,139 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.content-header {
+    /* box-shadow:
+        0px -88px 68px 68px black,
+        0px -123px 23px 68px orangered,
+        0px 55px 40px 105px white; */
+    padding: 20px;
+}
+
+header {
+    width: 100%;
+}
+
+.navbar {
+    max-width: 1366px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    justify-content: space-between;
+    margin: auto;
+    width: 100%;
+}
+
+.nav-left,
+.nav-center,
+.nav-right {
+    display: flex;
+    align-items: center;
+}
+
+.nav-left .button {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 180px;
+    height: 50px;
+    border: 1px solid black;
+}
+
+.style-button {
+    font-family: 'Courier New', Courier, monospace;
+    font-weight: 600;
+    font-size: 20px;
+    background-color: white;
+    border: none;
+    outline: none !important;
+    cursor: pointer;
+}
+
+.blog-div-right {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    justify-content: space-between;
+    width: 43%;
+}
+
+.nav-center .lest-menu ul {
+    display: flex;
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+    gap: 40px;
+}
+
+.nav-center .lest-menu ul li {
+    font-family: 'Courier New', Courier, monospace;
+    font-weight: 600;
+    font-size: 18px;
+}
+
+.nav-right .logo-title h1 {
+    font-family: 'Courier New', Courier, monospace;
+    font-weight: 900;
+    font-size: 42px;
+    margin: 0;
+    cursor: pointer;
+}
+
+/* section1 */
+.section1 {
+    padding: 100px 0px;
+    background-color: #E8F2FF;
+}
+
+.text-center1 {
+    font-family: serif;
+    font-size: 50px;
+    font-weight: 900;
+    letter-spacing: -2px;
+    color: darkslategray;
+}
+
+.text-center2 {
+    font-family: initial;
+    font-size: 35px;
+    font-weight: 400;
+    letter-spacing: 3px;
+    color: darkslategray;
+}
+
+/* section2 */
+
+
+.child a img {
+    border-radius: 20px;
+}
+
+.child {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-size: cover;
+    width: 350px;
+    height: 350px;
+    background-repeat: no-repeat;
+    margin: 20px;
+    border: 2.6px solid lightgray;
+    border-radius: 20px;
+}
+
+.child:hover {
+    box-shadow: 0 0 50px -30px black;
+}
+
+.child {
+    transition: all .5s;
+}
+
+
+.child:hover {
+    box-shadow: 0 0 50px -30px black;
+    transform: scale(1.05);
+}
